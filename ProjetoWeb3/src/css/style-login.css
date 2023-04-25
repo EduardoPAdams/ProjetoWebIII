@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Oswald:wght@700&display=swap');
+
+body{
+    width: 99%;
+    height: 97vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    background-image: url("../img/van/backLogin.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    font-family: 'Inter', sans-serif;
+}
+
+.sec-login{
+    width: 20rem;
+    height: 18rem;
+
+    border: solid 2px #ffffff30;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #ffffff29;
+}
+
+.form-login{
+    font-size: 1.2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#titulo-login{
+    font-size: 2.5rem;
+    
+    color: orange;
+
+    font-family: 'Oswald', sans-serif;
+}
+
+#submit{
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+}
