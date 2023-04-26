@@ -42,11 +42,37 @@ header{
     
 }
 
-#li-login{
+#li-home:hover{
     cursor: pointer;
+
+    background-color: #00000030;
+    border-radius: 10px;
+
+    width: 4rem;
+    height: 1.9rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#li-login:hover{
+    cursor: pointer;
+
+    background-color: #00000030;
+    border-radius: 10px;
+
+    width: 4rem;
+    height: 1.9rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #li-sign{
+    cursor: pointer;
+
     width: 4.5rem;
     height: 1.9rem;
     color: #fff;

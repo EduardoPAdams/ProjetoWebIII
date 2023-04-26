@@ -1,14 +1,19 @@
 
 
-function login(){
-    let senha = document.querySelector('#senha')
+function signUp(){
+    let nome = document.querySelector('#nome')
     let email = document.querySelector('#email')
-    let vlsenha = senha.value
-    let vlemail = email.value
+    let senha = document.querySelector('#senha')
 
-    if(vlsenha == 0 || vlemail == 0){
+    let vlnome = nome.value
+    let vlemail = email.value
+    let vlsenha = senha.value
+
+    if(vlsenha == 0 || vlemail == 0 || vlnome == 0){
         alert('Preencha todos os campos')
-        if(vlemail == 0){
+        if(vlnome == 0){
+            nome.focus()
+        }else if(vlemail == 0){
             email.focus()
         }else if(vlsenha == 0){
             senha.focus()
@@ -21,5 +26,5 @@ function login(){
     }
 }
 
-document.querySelector('#submit').addEventListener('click', login)
+document.querySelector('#submit-sign').addEventListener('click', signUp)
 

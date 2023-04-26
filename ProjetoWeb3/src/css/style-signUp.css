@@ -17,9 +17,9 @@ body{
     font-family: 'Inter', sans-serif;
 }
 
-.sec-login{
+.sec-sign{
     width: 20rem;
-    height: 18rem;
+    height: 22rem;
 
     border: solid 2px #ffffff30;
     border-radius: 20px;
@@ -31,7 +31,7 @@ body{
     background-color: #ffffff29;
 }
 
-.form-login{
+.form-sign{
     font-size: 1.2rem;
 
     display: flex;
@@ -41,7 +41,7 @@ body{
 
 }
 
-#titulo-login{
+#titulo-sign{
     font-size: 2.5rem;
     
     color: orange;
@@ -49,7 +49,7 @@ body{
     font-family: 'Oswald', sans-serif;
 }
 
-#email,#senha{
+#email,#senha,#nome{
     height: 1.5rem;
     width: 15rem;
 
@@ -59,7 +59,7 @@ body{
     text-align: center;
 }
 
-#submit{
+#submit-sign{
     width: 4rem;
     height: 1.5rem;
 
@@ -71,7 +71,7 @@ body{
     border-radius: 10px;
 }
 
-#submit:hover{
+#submit-sign:hover{
     background-color: #ffffff29;
     border: transparent;
 }

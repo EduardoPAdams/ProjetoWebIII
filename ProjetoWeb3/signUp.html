@@ -4,22 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/css/style-login.css">
-    <title>House of Vans - Login</title>
+    <link rel="stylesheet" href="src/css/style-signUp.css">
+    <title>House of Vans - SignUp</title>
 </head>
 <body>
-    <section class="sec-login">
-        <form action="" method="post" class="form-login">
-            <label id="titulo-login">Login</label>
+    <section class="sec-sign">
+        <form action="" method="post" class="form-sign">
+            <label id="titulo-sign">Sign Up</label>
+            <br>
+            <label for="nome">Digite seu nome:</label>
+            <input type="text" name="nome" id="nome" required>
             <br>
             <label for="email">Digite seu email:</label>
             <input type="email" name="email" id="email" required>
             <br>
             <label for="senha">Digite a senha:</label>
             <input type="password" name="senha" id="senha" minlength="6" required><br>
-            <input type="button" value="Login" id="submit">
+            <input type="button" value="Login" id="submit-sign">
         </form>
     </section>
-    <script src="src/js/script-login.js"></script>
+    <script src="src/js/script-signUp.js"></script>
 </body>
 </html>
